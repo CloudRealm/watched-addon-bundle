@@ -1,0 +1,9 @@
+{
+  "empty": {
+    "description": "This bundle will remove all currently installed addons and dashboards.",
+    "name": "Empty Bundle"
+  },
+  "watched": {
+    "description": "The default WATCHED bundle with a preselection of some nice addons and dashboards."
+  }
+}

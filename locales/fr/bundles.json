@@ -1,0 +1,9 @@
+{
+  "empty": {
+    "description": "Ce bundle supprimera tous les addons et tableaux de bord actuellement installés.",
+    "name": "Bundle vide"
+  },
+  "watched": {
+    "description": "Le bundle WATCHED par défaut avec une présélection de quelques addons et tableaux de bord."
+  }
+}

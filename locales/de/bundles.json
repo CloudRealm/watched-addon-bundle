@@ -1,0 +1,9 @@
+{
+  "empty": {
+    "description": "Dieses Bundle entfernt alle derzeit installierten Addons und Dashboards.",
+    "name": "Leeres Bundle"
+  },
+  "watched": {
+    "description": "Das Standard WATCHED Bundle mit einer Vorauswahl einiger netter Addons und Dashboards."
+  }
+}

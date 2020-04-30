@@ -1,0 +1,9 @@
+{
+  "empty": {
+    "description": "Bu Bundle, şu anda yüklü olan tüm Addon ları ve gösterge tablolarını kaldıracaktır.",
+    "name": "Boş Bundle"
+  },
+  "watched": {
+    "description": "Bazı güzel Addon ve gösterge tablolarının ön seçimi ile varsayılan WATCHED Bundle ı."
+  }
+}

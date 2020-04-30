@@ -1,0 +1,33 @@
+{
+  "name": "addon-watched-bundles",
+  "version": "0.0.0",
+  "main": "dist",
+  "scripts": {
+    "build": "tsc",
+    "start": "watched-sdk start --prod",
+    "develop": "watched-sdk start",
+    "update-locize": "node -r dotenv/config node_modules/.bin/locize download --path locales --clean=true -n bundles"
+  },
+  "dependencies": {
+    "@watchedcom/i18n": "^0.28.0",
+    "@watchedcom/sdk": "^0.28.0"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.1",
+    "locize-cli": "^7.1.5",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
