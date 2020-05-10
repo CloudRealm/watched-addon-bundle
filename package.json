@@ -4,19 +4,20 @@
   "main": "dist",
   "scripts": {
     "build": "tsc",
-    "start": "watched-sdk start --prod",
-    "develop": "watched-sdk start",
+    "start": "node .",
+    "develop": "ts-node-dev --transpileOnly src",
     "update-locize": "node -r dotenv/config node_modules/.bin/locize download --path locales --clean=true -n bundles"
   },
   "dependencies": {
-    "@watchedcom/i18n": "^0.28.0",
-    "@watchedcom/sdk": "^0.28.0"
+    "@watchedcom/i18n": "^0.31.1",
+    "@watchedcom/sdk": "^0.31.1"
   },
   "devDependencies": {
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.1",
-    "locize-cli": "^7.1.5",
+    "lint-staged": "^10.2.2",
+    "locize-cli": "^7.2.2",
     "prettier": "^2.0.5",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
   },
   "husky": {
